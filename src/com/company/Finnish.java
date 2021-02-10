@@ -20,5 +20,8 @@ public class Finnish implements Dialog
             return "Valittu kieli on";
         }
 
+        @Override
+        public String greet() { return "Hei!";}
+
 }
 

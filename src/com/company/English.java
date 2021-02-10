@@ -17,4 +17,8 @@ public class English implements Dialog{
     public String selectedLanguage() {
         return "The selected language is";
     }
+
+    @Override
+    public String greet() { return "Hello!";}
+
 }

@@ -18,4 +18,8 @@ public class Dansk implements Dialog {
     public String selectedLanguage() {
         return "Det valgte sprog er";
     }
+
+    @Override
+    public String greet() { return "Hej!";}
+
 }

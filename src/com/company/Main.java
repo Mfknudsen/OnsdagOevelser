@@ -15,6 +15,7 @@ public class Main {
                 dialog = sprog.SkiftSprog(getString("da / eng / sv / su"));
 
             }
+            System.out.println(dialog.greet());
             System.out.println(dialog.selectedLanguage() + " " + dialog.getLanguage());
 
         }

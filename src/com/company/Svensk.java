@@ -17,4 +17,8 @@ public class Svensk implements Dialog{
     public String selectedLanguage() {
         return "Det valda språket är";
     }
+
+    @Override
+    public String greet() { return "Hej!";}
+
 }
