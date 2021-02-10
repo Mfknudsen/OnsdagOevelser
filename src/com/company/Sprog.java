@@ -7,11 +7,10 @@ public class Sprog  {
     private HashMap<String, Dialog> dialoger = new HashMap<>();
 
     public Sprog() {
-
-
-        // her tilføjer du ny sprog
+        // Her tilføjer du ny sprog
         dialoger.put("da", new Dansk());
         dialoger.put("eng", new English());
+        dialoger.put("sv", new Svensk());
 
     }
     public Dialog SkiftSprog(String s) {
